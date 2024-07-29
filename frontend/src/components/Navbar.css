@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.auth-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

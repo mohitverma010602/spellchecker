@@ -1,0 +1,75 @@
+.home-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.textarea-container {
+  margin-bottom: 40px;
+}
+
+.textarea {
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.output-container {
+  margin-top: 40px;
+}
+
+.output-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+/* Add styling for the second text area */
+.second-textarea {
+  margin-top: 10px;
+}
+
+/* Add styling for the right panel */
+.right-panel {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Add margin to separate from the textarea */
+}
+
+/* Add styling for the three-letter input */
+.three-letter-input {
+  width: 100px; /* Adjust width as needed */
+  margin-right: 10px; /* Add margin for spacing */
+}
+
+/* Add margin to the button */
+.button {
+  margin-left: 10px;
+}
